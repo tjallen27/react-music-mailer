@@ -1,0 +1,149 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+h1 {
+  font-weight: 900;
+}
+p {
+  font-weight: 300;
+}
+section {
+  padding: 50px 0;
+}
+.App {
+  text-align: center;
+  color: #333;
+
+}
+.header-container {
+  transform: translate(0, 50%);
+  height: 80vh;
+  color: #333;
+  position: relative;
+  display: inline-block;
+}
+.header-container h1 {
+  margin-top: 0;
+  font-size: 5em;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  z-index: 10;
+}
+.header-container .outline {
+  color: black;
+-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: #333;
+}
+.header-container .header-underline {
+  display: block;
+  width: 300px;
+  height: 25px;
+  background: yellow;
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(0, -50%);
+  z-index: 0;
+}
+.info-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0;
+  height: 200px;
+}
+.info-container h4 {
+  font-size: 1.5em;
+}
+.info-container ul {
+  margin: 0;
+  padding: 0;
+}
+.info-container ul li {
+  float: left;
+  padding: 10px;
+  width: 30%;
+  list-style: none;
+}
+.player-container {
+  max-width: 600px;
+  margin:75px auto 0;
+}
+.player-container .info-and-control .music-info .title {
+  font-size: 1.75em;
+  font-weight: 900;
+  color: #333;
+}
+.player-container .info-and-control {
+  width: 100%;
+}
+.player-container .cover-container {
+  display: none;
+}
+.player-container .info-and-control .music-info {
+    text-align: center;
+}
+.plans-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.plans-tile {
+  padding: 20px 0;
+  width: 44%;
+  margin: 10px;
+  float: left;
+  border-radius: 35px;
+}
+.plans-tile h3 {
+  font-size: 1.75em;
+  font-weight: 900;
+}
+.plans-tile ul {
+  margin: 0;
+  padding: 0;
+}
+.plans-tile li {
+  font-size: 1.25em;
+  font-weight: 300;
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+}
+.plans-tile button {
+  background: #fff;
+  color: #333;
+  border: solid 2px yellow;
+  border-radius: 25px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 900;
+  font-size: 1.25em;
+}
+.plans-tile_header {
+  position: relative;
+}
+.plans-tile_underline {
+  display: block;
+  margin-top: -38px;
+  margin-left: 120px;
+  height: 10px;
+  width: 80px;
+  background: yellow;
+}
+.plans-tile_price {
+  font-weight: bold;
+}
+.footer-container {
+  clear: both;
+  padding: 100px 0 50px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .player-container .info-and-control {
+    width: 100%;
+  }
+}
